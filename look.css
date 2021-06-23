@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: papyrus sans-serif;
+
+}
+body
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:black;
+}
+.container
+{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+.container .btn
+{
+    position: relative;
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    padding-left: 50%;
+    
+    
+
+}
+
+.container .btn a
+{
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    text-transform: capitalize;
+    border-radius: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background:rgba(255 , 255 , 255 ,0.05);
+    transition: all 0.7s ease;
+    
+    
+}
+.container #btn1:hover a
+{
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    color:white;
+    background: #3b5998;
+    box-shadow: 5px 5px 10px #6c88c4;
+    
+}
+.container #btn2:hover a
+{
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    color:white;
+    background: #097aa5;
+    box-shadow: 5px 5px 10px #53b9e0 ;
+    
+}
+.container #btn3:hover a
+{
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    color: white;
+    background: #d81c3f;
+    box-shadow: 5px 5px 10px  #e46880 ;
+}
